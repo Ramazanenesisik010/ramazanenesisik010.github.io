@@ -1,0 +1,46 @@
+{
+    "apps":[
+        {
+            "name":"DikenEngine",
+            "version":"v0.7.0",
+            "author":"Ramazanenescik04",
+            "repo-name":"DikenEngine",
+            "desc":[
+                "DikenEngine'in Bir Demosudur",
+                ""
+            ],
+            "isLib":true,
+            "isStartable":{
+                "bool":true,
+                "classPath":"com.emirenesgames.engine.DikenEngine"
+            },
+            "isUseLib": {
+                "bool":true,
+                "lib-repo-names":[
+                    "RepoLibTest"
+                ]
+            }
+        },
+        {
+            "name":"RepoLibTest",
+            "version":"v0",
+            "author":"null",
+            "repo-name":"RepoLibTest",
+            "desc":[
+                "LibTest",
+                ""
+            ],
+            "isLib":true,
+            "isStartable":{
+                "bool":false,
+                "classPath":"com.emirenesgames.engine.DikenEngine"
+            },
+            "isUseLib": {
+                "bool":false,
+                "lib-repo-names":[
+                    ""
+                ]
+            }
+        }
+    ]
+}
